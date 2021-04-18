@@ -48,12 +48,12 @@ inquirer-autocomplete-prompt ](https://github.com/mokkabonna/inquirer-autocomple
 
 ### If you want to deliver it to users, what should be done ?
 
-    It depends of the user targeted. 
+It depends of the user targeted. 
 
-    If our target is developers or IT people, maybe a way to extract this information easily to use it for a specific purpose could be useful (then we should know which purpose).
+If our target is developers or IT people, maybe a way to extract this information easily to use it for a specific purpose could be useful (then we should know which purpose).
 
-    The only question then could be if we target developers, they should know how to use an API like Open Weather; so what is our added value in that case ?
+The only question then could be if we target developers, they should know how to use an API like Open Weather; so what is our added value in that case ?
 
-    If our target is non-developers, then the user interface should be as simple as possible, avoid as much as possible extra questions/steps to offer an intuitive experience and do not scare them with a complicated structure.
+If our target is non-developers, then the user interface should be as simple as possible, avoid as much as possible extra questions/steps to offer an intuitive experience and do not scare them with a complicated structure.
 
-    Then a documentation in both cases in crucial. A nice README and a NPM page is enough for developers, not for non-developers that will require a landing page at least.
+Then a documentation in both cases in crucial. A nice README and a NPM page is enough for developers, not for non-developers that will require a landing page at least.
