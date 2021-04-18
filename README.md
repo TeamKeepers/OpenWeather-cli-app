@@ -34,8 +34,7 @@ Run `npm install` and `npm start`.
 
 ### What could be improved ?
 
-1. Help the user to get the right city with an autocompletion for cities ([
-inquirer-autocomplete-prompt ](https://github.com/mokkabonna/inquirer-autocomplete-prompt) as Inquirer plugin could be helpful);
+1. Help the user to get the right city with an autocompletion for cities ([inquirer-autocomplete-prompt](https://github.com/mokkabonna/inquirer-autocomplete-prompt) as Inquirer plugin could be helpful);
 
 2. Choose the amount of information to display to the user (short versus detailed);
 
