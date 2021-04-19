@@ -1,11 +1,13 @@
 # OPEN WEATHER CLI APP
 
-Node CLI App based on [Open Weather](https://openweathermap.org/). 
+Node CLI App based on [Open Weather](https://openweathermap.org/) and [IP API](https://ip-api.com/) to localize the user if requested. 
 
 Create an account to get an *API key*.
 
 **PLEASE CREATE A `.ENV` FILE AND ADD YOUR OPEN WEATHER API KEY.**
 > Name of the variable to create: OW_API_KEY
+
+![Open Weather CLI App](./assets/openWeatherCLIapp.png)
 
 ## How to start the app ?
 
@@ -13,6 +15,10 @@ Run `npm install` and `npm start`.
 
 ## QUESTIONS 
 ### What packages are used & why ?
+
+I selected the packages that could help me to build a nice app quickly. 
+
+For the most important features, I selected only well maintained packages in order to avoid any technical debt (Inquirer, Dotenv, ConfigStore and GOT).
 
 * [Clear](https://www.npmjs.com/package/clear) to clear the terminal while the app starts;
 
@@ -22,7 +28,7 @@ Run `npm install` and `npm start`.
 
 * [Inquirer](https://www.npmjs.com/package/inquirer) to easily interact with the user;
 
-* [Inquirer-file-tree-selection-prompt](https://github.com/anc95/inquirer-file-tree-selection) as Inquirer plugin to easily retrieve a file;
+* [Inquirer-file-tree-selection-prompt](https://www.npmjs.com/package/inquirer-file-tree-selection-prompt) as Inquirer plugin to easily retrieve a file;
 
 * [ConfigStore](https://www.npmjs.com/package/configstore) to store the previous configuration from the user;
 
@@ -31,6 +37,8 @@ Run `npm install` and `npm start`.
 * [CLUI](https://www.npmjs.com/package/clui) to build a nice interface with loading effect;
 
 * [Dotenv](https://www.npmjs.com/package/dotenv) to store, protect and get the API keys in a .env file;
+
+* and all the eslint packages needed.
 
 ### What could be improved ?
 
@@ -55,4 +63,4 @@ The only question then could be if we target developers, they should know how to
 
 If our target is non-developers, then the user interface should be as simple as possible, avoid as much as possible extra questions/steps to offer an intuitive experience and do not scare them with a complicated structure.
 
-Then a documentation in both cases in crucial. A nice README and a NPM page is enough for developers, not for non-developers that will require a landing page at least.
+Then a documentation in both cases in crucial. A nice README, a NPM page or a clear endpoints definition (API) is enough for developers, not for non-developers that will require a landing page at least.

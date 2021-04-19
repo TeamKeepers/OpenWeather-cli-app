@@ -1,5 +1,5 @@
 {
-  "name": "proton-openweather-cli",
+  "name": "openweather-cli",
   "version": "1.0.0",
   "description": "Open Weather CLI App",
   "main": "index.js",
