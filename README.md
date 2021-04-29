@@ -48,7 +48,7 @@ For the most important features, I selected only well maintained packages in ord
 
 3. Accept more than JSON file as import;
 
-4. Allow the user to get a file outside the Assets directory (Linux, Max, Windows);
+4. Allow the user to get a file outside the Assets directory (Linux, Macs, Windows);
 
 5. Improve the user experience: how to display the information (improve the use of the Chalk package), interaction with the user & try to avoid extra question as much as possible ...
 
